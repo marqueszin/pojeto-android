@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/desafio08/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -31,8 +31,8 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-a.externo::after {j
-    content: '\00A0\1F517';
+a.externo::after {
+    content:'\00A0\1F517';
 }
 
 header {
